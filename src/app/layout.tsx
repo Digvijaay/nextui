@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Providers } from "@/assests/provider";
+import { Providers } from "@/assets/provider";
 
 
 
@@ -17,9 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body
-        className={"dark text-foreground bg-background"}
-      >
+      <body>
         <Providers>
         {children}
         </Providers>
